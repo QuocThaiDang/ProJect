@@ -1,12 +1,12 @@
 .col-item{
     border: 1px solid #e1e1e1;
     border-radius: 5px;
-    background: #fff;
+    background: rgb(238, 236, 236);
 }
 .col-item  .photo img{
     margin: 0 auto;
     width: auto;
-    height: 5cm;
+    height: 7rem;
 }
 .col.item .info{
     padding: 10px;
@@ -28,7 +28,7 @@
     color: blue;
     }
     .col-item .info .rating {   
-    color: brown;
+    color: wheat;
     }
     .col-item .rating {     
     float: left;    
@@ -54,14 +54,14 @@
     margin-right: 5px;
     }
     .col-item .btn-add {    
-    width: 50%; 
+    width: 100%; 
     float: left;
     }
     .col-item .btn-add {    
     border-right: 1px solid white;
     }
     .col-item .btn-details {    
-    width: 50%; 
+    width: 100%; 
     float: left;    
     padding-left: 10px;
     }
@@ -71,8 +71,3 @@
     [data-slide="prev"] {
      margin-right: 10px;
     }
-    h2{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: red;
-    }
-    
