@@ -1,12 +1,19 @@
+
+.photo img{
+    z-index: 100;
+    display: block;
+    margin: auto;
+}
 .col-item{
     border: 1px solid #e1e1e1;
     border-radius: 5px;
     background: rgb(238, 236, 236);
 }
 .col-item  .photo img{
-    margin: 0 auto;
-    width: auto;
-    height: 7rem;
+    margin:auto;
+    width: 10rem;
+    height:  10rem;
+    padding: initial;
 }
 .col.item .info{
     padding: 10px;
@@ -33,7 +40,7 @@
     .col-item .rating {     
     float: left;    
     font-size: 17px;    
-    text-align: right;  
+     text-align: right;
     line-height: 52px;  
     margin-bottom: 10px;    
     height: 52px;
@@ -71,3 +78,4 @@
     [data-slide="prev"] {
      margin-right: 10px;
     }
+    
